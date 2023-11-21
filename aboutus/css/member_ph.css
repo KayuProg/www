@@ -1,0 +1,82 @@
+.content1 {
+    display: block;
+    position: relative;
+    height: 100%;
+    /*一度高さ1000pxで作って最後にpaddingとかで調整*/
+    padding: 5vw 0 10vw 0;
+    background-color: #eff1f3;
+}
+
+.con1_head {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 3vh;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.53);
+
+}
+
+.mem_card {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 90%;
+    margin: 4vw 5% 0 5%;
+    font-size: 2vw;
+    box-shadow: 0px 3px 10px 7px rgba(0, 0, 0, 0.35);
+}
+
+.mem_img {
+    display: block;
+    position: relative;
+    width: 30%;
+    object-fit: scale-down;
+}
+
+.sd {
+    object-fit: scale-down;
+}
+
+.no {
+    object-fit: none;
+}
+
+
+.mc_con {
+    display: block;
+    position: relative;
+    width: 70%;
+    background-color: #fdfdfd;
+}
+
+.bucho {
+    border: 0.5vw solid #81e1cb;
+}
+
+.member {
+    border: 0.5vw solid #524ccc;
+}
+
+.name {
+    display: inline-block;
+    position: relative;
+    font-size: 2vh;
+    font-weight: 600;
+    margin: 2vw 0 0 3vw;
+}
+
+.depart {
+    font-size: 1.5vh;
+}
+
+.mem_intro {
+    display: block;
+    position: relative;
+    font-size: 1.3vh;
+    margin: 2vw;
+}

@@ -1,0 +1,82 @@
+.content1 {
+    display: block;
+    position: relative;
+    height: 100%;
+    /*一度高さ10000pxで作って最後にpaddingとかで調整*/
+    padding: 5vw 0 10vw 0;
+    background-color: #eff1f3;
+}
+
+.con1_head {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 2vh;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.53);
+
+}
+
+.kitai_box {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 4vw 10% 0 10%;
+}
+
+.img_box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.kitai_name {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    font-size: 2.5vh;
+    font-weight: 700;
+    border-bottom: 0.3vw solid #3c7eff;
+    padding: 0 0 0 2vw;
+    margin: 0 0 2vw 0;
+}
+
+.cansat_name {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    font-size: 2vh;
+    font-weight: 700;
+    border-bottom: 0.3vw solid #ff8d3c;
+    padding: 0 0 0 2vw;
+    margin: 0 0 2vw 0;
+}
+
+.rocket_name {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    font-size: 2vh;
+    font-weight: 700;
+    border-bottom: 0.3vw solid #1eff06;
+    padding: 0 0 0 2vw;
+    margin: 0 0 2vw 0;
+}
+
+.kitai_img {
+    display: block;
+    position: relative;
+    width: 50%;
+    object-fit: cover;
+}
+
+.kitai_con {
+    font-size: 1.5vh;
+    display: block;
+    position: relative;
+    padding: 1vw 1vw;
+}

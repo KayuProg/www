@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>東京農工大学 航空研究会 -NoKo Lat-</title>
+    <!--stylesheet import-->
+    <link rel="stylesheet" href="home/css/home.css">
+    <link rel="stylesheet" href="home/css/home_slider.css">
+    <!--js imoprt-->
+    <script src="common/js/three.min.js"></script>
+    <script src="common/js/vanta.clouds.min.js"></script>
+    <!--タイプライター-->
+    <script src="https://unpkg.com/ityped@1.0.3"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@auroratide/typewritten-text/lib/style.css"/>
+    <script type="module" src="https://unpkg.com/@auroratide/typewritten-text/lib/define.js"></script>
+    <!--con2_img_slider-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- view port -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="home/css/home_ph.css">
+
+</head>
+<body>
+
+<!--===============================================================
+    contents1
+===============================================================-->
+
+
+<!--header here-->
+<!--background here-->
+<home_bg id="home_bg">
+    <div>
+        <div class="head_container">
+            <a href="aboutus/aboutus.html" class="head_a">
+                <div class="head_about_us">About us</div>
+            </a>
+            <a href="aircrafts/aircrafts.html" class="head_a">
+                <div class="head_aircrafts">Aircrafts</div>
+            </a>
+            <a href="rog/rog.html" class="head_a">
+                <div class="head_faq">Rog</div>
+            </a>
+            <a href="contact/contact.html" class="head_a">
+                <div class="head_contact">Contact</div>
+            </a>
+        </div>
+    </div>
+
+    <script><!--良くないけど動作させるためにここにjs書きます-->
+    let home_bg_height = document.documentElement.clientHeight;
+    let height_texts = `height is ${home_bg_height}`;
+    console.log(height_texts);
+    VANTA.CLOUDS({
+        el: "home_bg",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: home_bg_height,
+        // minWidth: home_bg_width,
+        skyColor: 0x70add6,
+        cloudShadowColor: 0x3b5b7a,
+        sunColor: 0xdede58,
+        sunlightColor: 0x9a734c,
+        speed: 1.0
+    });
+    document.getElementById('home_bg').style.height = `${home_bg_height}px`;
+    </script>
+    <!--contents-->
+    <div class="type_up fgo">
+        <p>
+            <typewritten-text>
+                <span class="former_ph mae type_back_FadeIn">東京<span class="type_up_fuchi_former">農</span><span
+                        class=" type_up_fuchi">工</span>大学</span>&emsp;
+                <span class="later_ph last_type_up_fuchi fmin">航空研究会</span>
+            </typewritten-text>
+        </p>
+    </div>
+    <div class="type_down fen fb mainFadeIn" id="home_con1_do">
+        NoKo univ. Laboratory of Aerospace Technology - NoKoLAT -
+    </div>
+    <!--home top aircraft slide-->
+    <!--to left-->
+    <img src="home/img/aircrafts/toleft/1.png" class="img_slide_toleft h9" id="home_left_img1" alt="">
+    <img src="home/img/aircrafts/toleft/2.png" class="img_slide_toleft h8" id="home_left_img2" alt="">
+    <img src="home/img/aircrafts/toleft/3.png" class="img_slide_toleft h8" id="home_left_img3" alt="">
+    <img src="home/img/aircrafts/toleft/4.png" class="img_slide_toleft h9" id="home_left_img4" alt="">
+    <img src="home/img/aircrafts/toleft/5.png" class="img_slide_toleft h6" id="home_left_img5" alt="">
+    <img src="home/img/aircrafts/toleft/6.png" class="img_slide_toleft h6" id="home_left_img6" alt="">
+    <img src="home/img/aircrafts/toleft/7.png" class="img_slide_toleft h8" id="home_left_img7" alt="">
+    <!--to right-->
+    <img src="home/img/aircrafts/toright/1.png" class="img_slide_toright h6" id="home_right_img1" alt="">
+    <img src="home/img/aircrafts/toright/2.png" class="img_slide_toright h9" id="home_right_img2" alt="">
+    <img src="home/img/aircrafts/toright/3.png" class="img_slide_toright h6" id="home_right_img3" alt="">
+    <img src="home/img/aircrafts/toright/4.png" class="img_slide_toright h8" id="home_right_img4" alt="">
+    <img src="home/img/aircrafts/toright/5.png" class="img_slide_toright h8" id="home_right_img5" alt="">
+    <img src="home/img/aircrafts/toright/6.png" class="img_slide_toright h6" id="home_right_img6" alt="">
+    <img src="home/img/aircrafts/toright/7.png" class="img_slide_toright h8" id="home_right_img7" alt="">
+</home_bg>
+
+<!--===============================================================
+    content2 here
+===============================================================-->
+<div class="content2_bg fen">
+    <div class="con2_what"><span class="what_border">What we do</span></div>
+    <div class="con2_m_c">
+        <video src="home/img/movie/movie_for_site.mp4" class="con2_movie" autoplay preload="auto" loop playsinline
+               muted></video>
+        <div class="con2_con  fen">
+            航空研究会NokoLATは2004年に創設された東京農工大学公認のサークルです。<br>
+            飛行機を作ったり、飛行機を飛ばしたり自由に活動しています。<br>
+            紹介動画は <a href="aboutus/aboutus.html" style="color:#00baea;" class="kotira"><u>こちら</u></a>
+        </div>
+    </div>
+    <div class="comp_img">
+        <a href="http://indoor-flight.com/" 　target="_blank"><img src="home/img/contents/hiko.png"
+                                                                  class="con2_img_hiko"></a>
+        <a href="http://www.jaxa-rocket-contest.jp/contest/" 　target="_blank"><img src="home/img/contents/tane.png"
+                                                                                   class="con2_img_tane"></a>
+    </div>
+    <div class="con2_3 fgo">
+        毎年9月に行われる”飛行ロボットコンテスト”と、
+        3月の”種子島ロケットコンテスト”に出場し数々の功績を残しています。<br><br><br>
+    </div>
+    <div class="con2_img_bg">
+        <ul class="slider">
+            <li><img src="home/img/con2_slider/1.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/2.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/3.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/4.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/5.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/6.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/7.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/8.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/9.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/10.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/11.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/12.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/13.jpg" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/14.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/15.jpg" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/16.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/17.jpg" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/18.jpg" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/19.PNG" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/20.jpg" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/21.jpg" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/22.jpg" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/23.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/24.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/25.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/26.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/27.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/28.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/29.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/30.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/31.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/32.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/33.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/34.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/35.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/36.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/37.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/38.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/39.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/40.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/41.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/42.png" class="con2_img" alt=""></li>
+            <li><img src="home/img/con2_slider/43.png" class="con2_img" alt=""></li>
+            <!--/slider--></ul>
+    </div>
+    <div class="con2_4">
+        機体は数人のチームで制作することが多いですが、作られてきた多くの機体が個人で制作されたものです。
+    </div>
+</div>
+
+<!--===============================================================
+    contents3 here
+===============================================================-->
+<div class="content3">
+    <div class="con3_shin fmin fb"><span class="shin_border">新入生のみなさま</span></div>
+    <div class="con3_con_container">
+        <img src="home/img/con3/icon.png" class="con3_icon" alt="">
+        <span class="con3_con">
+            新入生のみなさま、ご入学おめでとうございます。<br><br>
+
+            航空研は工学部（小金井キャンパス）を活動拠点としています.<br>
+            <u class="fb">活動日は決まっていません!</u> 部室は（ほぼ）いつでも開いています。<br><br>
+            大会直前は忙しくなりますが、<span class="red fb">来たい時に来てやりたいだけやる</span>サークルなので、自分のペースに合わせて活動できます。
+            大会がない時はなんとなく部室に来てご飯を食べたり、飛行機を作ったり、課題をやったり、飛行機を飛ばしたり、自由に活動しています。<br>
+            工学部２号館でお待ちしています！<a href="contact/contact.html#bushitu_location"><button
+                class="bushitu_loc">場所はこちら！</button></a><br>
+            <br><u>新歓期間外でも入部大歓迎です！</u><br><br>
+
+            ものづくりに興味がある人、飛行機・ロケット・マルチコプター（ドローン）が好きな人、まったりサークルしたい人…<br>
+            <u class="fb">学科関係なく</u>多くの方が入部してます！(最近では他大学の人も....)<br>
+            ぜひ航空研究会をのぞいてみてください！<br><br><br>
+
+            皆様のご入部を心よりお待ちしています．
+        </span>
+        <img src="home/img/con3/syugo.jpg" class="con3_pic" alt="">
+        <div class="con3_fin">
+            <div>Supported by</div>
+            <a href="https://www.tuat.ac.jp/%7Emech/"><img src="home/img/con3/msebanner.gif" class="con3_fin_img"></a>
+            <a href="https://www.tuat.ac.jp/"><img src="home/img/con3/tuatbanner.gif" class="con3_fin_img"></a>
+            <a href="https://www.tuat.ac.jp/%7Ekiyukai/"><img src="home/img/con3/banner_kiyukai.gif"
+                                                              class="con3_fin_img"></a>
+            <a href="https://www.tuat-dousoukai.org/"><img src="home/img/con3/dosobanner.gif" class="con3_fin_img"></a>
+        </div>
+    </div>
+</div>
+
+<!--===============================================================
+    footer here
+===============================================================-->
+<div class="footer">
+    <small>Copyright © 2023 NoKoLAT All Rights Reserved.</small>
+    <a href="old/index.html" class="footer_link"><u>旧サイト</u></a>
+</div>
+
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!--sliders-->
+<script src="home/js/home_slide.js"></script>
+<script src="home/js/home_imgslider.js"></script>
+</body>
+<!--import js-->
+
+</html>

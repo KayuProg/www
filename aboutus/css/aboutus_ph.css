@@ -1,0 +1,191 @@
+/*===============================================================
+    content1 here
+===============================================================*/
+.content1 {
+    display: block;
+    position: relative;
+    height: 100%;
+    /*一度高さ1000pxで作って最後にpaddingとかで調整*/
+    padding: 5vw 0 10vw 0;
+    background-color: #eff1f3;
+}
+
+.con1_head {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 3vh;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.53);
+    font-weight: bold;
+}
+
+.con1_1 {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 4vw 10% 0 10%;
+    font-size: 2vh;
+}
+
+.con1_movie {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 5vw 5% 5vw 5%;
+}
+
+/*===============================================================
+        content2 here
+===============================================================*/
+.con2 {
+    display: block;
+    position: relative;
+    margin: 5vw 0 0 0;
+}
+
+.con2_head {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 3vh;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.53);
+
+}
+
+
+/*table css*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: solid 2px white;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+table th {
+    position: relative;
+    text-align: left;
+    width: 30%;
+    background-color: #52c2d0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+table th:after {
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: -10px;
+    border-left: 10px solid #52c2d0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+table td {
+    text-align: left;
+    width: 70%;
+    text-align: center;
+    background-color: #ffeeee;
+    padding: 10px 0;
+}
+
+.con2_1 {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 5vw 5% 0 5%;
+    font-size: 1.5vh;
+}
+
+/*===============================================================
+        content3 here
+===============================================================*/
+
+.con3 {
+    display: block;
+    position: relative;
+}
+
+.con3_head {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 2.5vh;
+    color: black;
+    padding: 0.5vw 2vw;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.53);
+    margin: 8vw 0 0 0;
+}
+
+.con3_1 {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 1.5vh;
+    color: black;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.53);
+    margin: 5vw 0 0 0vw;
+    padding: 3vw 5vw;
+}
+
+.con3_link {
+    display: inline-block;
+    margin: 5px 0 0 0;
+    color: darkblue;
+}
+
+/*===============================================================
+    con4 here
+===============================================================*/
+.con4 {
+    display: block;
+    position: relative;
+}
+
+.con4_1 {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 5vw 5% 0 5%;
+}
+
+.con4_img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.to_loc {
+    display: block;
+    position: relative;
+    margin: 7vw 0 0 0;
+}
+
+.to_loc_link {
+    color: darkblue;
+    font-size: 2.5vh;
+}

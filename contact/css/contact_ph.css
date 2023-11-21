@@ -1,0 +1,66 @@
+
+.content1 {
+    display: block;
+    position: relative;
+    height: 100%;
+    /*一度高さ10000pxで作って最後にpaddingとかで調整*/
+    padding: 5vw 0 10vw 5%;
+    background-color: #eff1f3;
+}
+
+.con1_head {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 2vh;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.53);
+}
+
+.sen {
+    display: block;
+    position: relative;
+    font-size: 2vh;
+    left: 6%;
+    margin: 5vw 0 0 0;
+}
+
+.mail, .twit, .inst, .ob {
+    margin: 5vw 0 0 8%;
+}
+
+.head {
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.con {
+    font-size: 2vh;
+    margin: 0 0 0 3vw;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*===============================================================
+        con2 here
+===============================================================*/
+.con2 {
+    font-size: 2vh;
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 8vw 5% 0 5%;
+}
+
+
+.locimg {
+    display: block;
+    width: 90%;
+    margin: 1vw 5%;
+}

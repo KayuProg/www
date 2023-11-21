@@ -1,0 +1,19 @@
++#counter
+ 現在の閲覧者数~
+ &online;人~
+ ***Menu [#adc1168f]
+ -[[目次]]
+ -[[README]]
+ -[[How to Use]]
+ -[[テストページ]]
+ -[[部会ログ]]
+ 
+ ***[[タグ]]一覧 [#m28f9230]
+ #show_tags(list)
+ ~
+ #recentdetail(100,"3h")
+ 
+ 
+ //常に表示されるメニューバーです。
+ //&edit(MenuBar,noicon){edit};
+ //を記述しておくとMenuBarを気軽に修正できるようになって便利かも。

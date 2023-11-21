@@ -1,0 +1,25 @@
+ #norelated
+ #set_tags(wiki)
+ * トップページ [#ab7b2d8b]
+ 
+ 航空研wiki設置してみました！
+ 
+ pass打たないと見れないようになっていると思いますが、不具合などあると思います。~
+ 
+ その他、追加してほしいものや意見などもありましたら2年上田までお願いします。~
+ 
+ ＊＊＊ とりあえず''目次''に行ってください→SIZE(30){''[[目次]]''} ＊＊＊~
+ 
+ ** 練習ページ [#c12dd17f]
+ - [[SandBox]] -- 編集をお試しください
+ - [[InterWikiSandBox]] -- [[InterWiki]]を試してみてください
+ 
+ 
+ ** PukiWikiについて [#i7afddc1]
+ 
+ - [[PukiWiki]] -- PukiWikiのご紹介
+ 
+ *** ドキュメント [#ec6b809a]
+ - [[ヘルプ>Help]] -- PukiWikiで編集するには？
+ - [[テキスト整形のルール(詳細版)>FormattingRules]]
+ - [[プラグインマニュアル>PukiWiki/1.4/Manual/Plugin]]
