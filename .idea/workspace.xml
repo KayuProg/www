@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="" />
+    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="2023/11/21 commit">
+      <change afterPath="$PROJECT_DIR$/aircrafts/kitai_intro/rocket/rocket_box/rocket_2020.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aircrafts/kitai_intro/rocket/rocket_box/rocket_2021.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus/member/19th.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus/member/19th.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aircrafts/aircrafts.html" beforeDir="false" afterPath="$PROJECT_DIR$/aircrafts/aircrafts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aircrafts/kitai_intro/rocket/rocket.html" beforeDir="false" afterPath="$PROJECT_DIR$/aircrafts/kitai_intro/rocket/rocket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aircrafts/kitai_intro/rocket/rocket_box/rocket_2022.html" beforeDir="false" afterPath="$PROJECT_DIR$/aircrafts/kitai_intro/rocket/rocket_box/rocket_2022.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rog/rog.html" beforeDir="false" afterPath="$PROJECT_DIR$/rog/rog.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YTb3egq6pDTDssOBF5vix5Xz2v" />
   <component name="ProjectViewState">
@@ -18,11 +37,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/katayama/Desktop/航空研/site/www",
+    "last_opened_file_path": "C:/Users/katayama/Desktop/航空研/site/www/aircrafts/kitai_intro/rocket/rocket_box",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\katayama\Desktop\航空研\site\www\aircrafts\kitai_intro\rocket\rocket_box" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="デフォルトタスク">
@@ -32,7 +60,17 @@
       <option name="presentableId" value="Default" />
       <updated>1700552318189</updated>
       <workItem from="1700552319210" duration="222000" />
+      <workItem from="1700552557274" duration="377000" />
+      <workItem from="1700553579655" duration="2088000" />
     </task>
+    <task id="LOCAL-00001" summary="2023/11/21 commit">
+      <created>1700552772405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700552772405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -48,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023/11/21 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023/11/21 commit" />
   </component>
 </project>
