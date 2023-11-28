@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="aircrafts 修正">
+    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="Correcting uppercase and lowercase letters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,11 @@
       <workItem from="1700556144315" duration="2000" />
       <workItem from="1700724728399" duration="19000" />
       <workItem from="1700724935623" duration="31000" />
+      <workItem from="1700834247464" duration="85000" />
+      <workItem from="1700834858287" duration="72000" />
+      <workItem from="1700836683736" duration="164000" />
+      <workItem from="1700837231922" duration="37000" />
+      <workItem from="1701153132505" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="2023/11/21 commit">
       <created>1700552772405</created>
@@ -70,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700555724761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correcting uppercase and lowercase letters">
+      <created>1700834327122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700834327122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023/11/21 commit" />
     <MESSAGE value="aircrafts 修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="aircrafts 修正" />
+    <MESSAGE value="Correcting uppercase and lowercase letters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting uppercase and lowercase letters" />
   </component>
 </project>
