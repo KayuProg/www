@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="Correcting uppercase and lowercase letters">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="Correcting appearance for index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
       <workItem from="1700834858287" duration="72000" />
       <workItem from="1700836683736" duration="164000" />
       <workItem from="1700837231922" duration="37000" />
-      <workItem from="1701153132505" duration="138000" />
+      <workItem from="1701153132505" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="2023/11/21 commit">
       <created>1700552772405</created>
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700834327122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correcting appearance for index.html">
+      <created>1701153317522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701153317522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +107,7 @@
     <MESSAGE value="2023/11/21 commit" />
     <MESSAGE value="aircrafts 修正" />
     <MESSAGE value="Correcting uppercase and lowercase letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcting uppercase and lowercase letters" />
+    <MESSAGE value="Correcting appearance for index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting appearance for index.html" />
   </component>
 </project>
