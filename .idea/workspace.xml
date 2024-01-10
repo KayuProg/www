@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="Correcting appearance for index.html" />
+    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="Correcting appearance for index.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus/member/19th.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus/member/19th.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +60,9 @@
       <workItem from="1700836683736" duration="164000" />
       <workItem from="1700837231922" duration="37000" />
       <workItem from="1701153132505" duration="208000" />
+      <workItem from="1702342553561" duration="169000" />
+      <workItem from="1704772277917" duration="36000" />
+      <workItem from="1704883025456" duration="110000" />
     </task>
     <task id="LOCAL-00001" summary="2023/11/21 commit">
       <created>1700552772405</created>
@@ -86,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701153317522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correcting appearance for index.html">
+      <created>1702342704036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702342704036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
