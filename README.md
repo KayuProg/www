@@ -1,2 +1,2 @@
 # www
-This is TUAT -NOKOLAT- website code.
+TUAT -NOKOLAT- website code HERE.

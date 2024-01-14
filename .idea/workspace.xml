@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="19th member contents edit" />
+    <list default="true" id="1205e5cd-79ae-42a0-80f6-179387efaf2d" name="変更" comment="site updateをgit ignoreに追加" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +60,7 @@
       <workItem from="1702342553561" duration="169000" />
       <workItem from="1704772277917" duration="36000" />
       <workItem from="1704883025456" duration="155000" />
+      <workItem from="1704945045892" duration="81000" />
     </task>
     <task id="LOCAL-00001" summary="2023/11/21 commit">
       <created>1700552772405</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704883172030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="site updateをgit ignoreに追加">
+      <created>1704945120821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704945120821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,7 @@
     <MESSAGE value="Correcting uppercase and lowercase letters" />
     <MESSAGE value="Correcting appearance for index.html" />
     <MESSAGE value="19th member contents edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="19th member contents edit" />
+    <MESSAGE value="site updateをgit ignoreに追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="site updateをgit ignoreに追加" />
   </component>
 </project>
